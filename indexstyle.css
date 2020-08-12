@@ -1,0 +1,372 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    scroll-behavior: smooth;
+    font-family: 'Tajawal', sans-serif;
+}
+
+body {
+    
+    font-weight: lighter;
+}
+
+
+
+
+
+
+.content{
+  height: 100vh;
+  width: 100%;
+ 
+}
+
+@media(max-width: 886px) {
+
+   
+
+}
+#particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+   
+  }
+/* home */
+
+.content{
+    
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #212121;
+    width: 100%;
+    height: 100vh;
+   
+}
+.content h1{
+    color: #fff;
+    font-size: 5vw;
+    margin-bottom: 1.5vw;
+    letter-spacing: 0.6vw;
+    word-spacing: 1vw;
+    margin-bottom: 2vw;
+    margin-top: 0px;
+    /* font-family: 'Open Sans', sans-serif; */
+
+
+    
+
+   
+}
+
+.content p{
+    color: #fff;
+    font-size: 1.5vw;
+    font-weight:lighter;
+    text-align: center;
+    /* font-family: 'Red Rose', cursive; */
+    margin-top: 0px;
+    margin-bottom: 0;
+    letter-spacing: 2px;
+    flex-wrap: wrap;
+    line-height: 2.5vw;
+    
+    
+    
+}
+
+
+.content .btn {
+   height:40px ;
+   width: 150px;
+   background-color: tomato;
+   border: none;
+   border-radius: 10px;
+   overflow: hidden;
+  
+  }
+  .btn:hover {
+    background-color: white;
+    color: #212121;
+    transition-duration: 0.5s;
+  }
+  @media only screen and (max-width: 886px) {
+    .content .btn {
+        height:30px ;
+        width: 100px;
+        background-color: tomato;
+        border: none;
+        border-radius: 10px;
+    }
+
+    .content h1{
+        color: #fff;
+        font-size: 5vw;
+        margin-bottom: 1.5vw;
+        letter-spacing: 0.6vw;
+        word-spacing: 1vw;
+        margin-bottom: 5px;
+        margin-top: 0;
+      
+        
+    
+       
+    }
+    
+    .content p{
+        color: #fff;
+        font-size: 2vw;
+        font-weight:lighter;
+        text-align: center;
+        /* font-family: 'Red Rose', cursive; */
+        margin: 0px;
+        line-height: 3.5vw;
+        
+        
+    }
+
+  }
+
+
+
+
+
+  /* about */
+
+#about{
+display: flex;
+align-content: center;
+flex-direction: row;
+width: 100%;
+height: 90vh;
+background-color: #212121;
+
+  }
+
+#about .imagesection{
+    
+    width: 50%;
+}
+.imagesection img{
+
+ 
+    width: 40vh;
+    height: 50vh;
+    object-fit: fill;
+    margin:50px;
+    box-shadow: 10px 10px 10px -2px #fff;
+   
+    
+}
+
+#about .textsction{
+    width: 50%;
+    
+}
+
+#about .textsection h1{
+    margin: 20px;
+    text-align: center;
+    font-size: 4vw;
+    color: #fff;
+    
+}
+#about .textsection p{
+    word-spacing: 4px;
+    letter-spacing: 4px;
+    margin-left: 50px;
+    text-align: justify;
+    font-size: 1.5vw;
+    color: #fff;
+    
+}
+
+#about .btn {
+    height:40px ;
+    width: 150px;
+    background-color: tomato;
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+   
+   }
+  #about .btn:hover {
+     background-color: white;
+     color: #212121;
+     transition-duration: 0.5s;
+   }
+
+
+/* social mediaicons start */
+
+
+
+  
+ 
+  
+
+  p,
+  span,
+  .twitter {
+    
+    text-align: center;
+    color: #998578;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    
+  }
+  
+  .twitter {
+    color: #000000;
+    text-decoration: none;
+    display: block;
+    
+    padding: 14px;
+    -webkit-transition: all .25s ease;
+    -moz-transition: all .25s ease;
+    -ms-transition: all .25s ease;
+    -o-transition: all .25s ease;
+    transition: all .25s ease;
+  }
+  
+  .twitter:hover {
+    color: #FF7D6D;
+    text-decoration: none;
+  }
+  
+  span {
+    font-style: italic;
+    display: block;
+  }
+  
+  img {
+    max-width: 100%;
+  }
+  /* Floating Social Media Bar Style Starts Here */
+  
+  .fl-fl {
+    background: #212121;
+    font-family: 'Tajawal', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 4px;
+    width: 190px;
+    position: fixed;
+    right: -150px;
+    z-index: 1000;
+    
+    -webkit-transition: all .25s ease;
+    -moz-transition: all .25s ease;
+    -ms-transition: all .25s ease;
+    -o-transition: all .25s ease;
+    transition: all .25s ease;
+  }
+  
+  .fab {
+    font-size: 20px;
+    color: #fff;
+    padding: 10px 0;
+    width: 40px;
+    margin-left: 2px;
+  }
+  
+  .fl-fl:hover {
+    right: 0;
+    
+  }
+  
+  .fl-fl a {
+    color: #fff !important;
+    text-decoration: none;
+    text-align: center;
+    line-height: 43px!important;
+    vertical-align: top!important;
+    
+  }
+  
+  .float-in {
+    top: 160px;
+ 
+  }
+
+  .float-gt {
+    top: 215px;
+  }
+  
+  .float-gp {
+    top: 270px;
+  }
+  
+  .float-fb {
+    top: 325px;
+  }
+  
+  .float-ig {
+    top: 380px;
+  }
+  
+
+  /* Floating Social Media Bar Style Ends Here */
+/* social mediaicons end */
+
+@media only screen and (max-width: 886px) {
+    #about{
+        display: flex;
+        align-content: center;
+        flex-direction: column;
+        width: 100%;
+        height:90vh ;
+        
+        
+          }
+        
+        #about .imagesection{
+            width: 100%;
+        }
+        #about .imagesection img{
+        
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+          
+            height: 50vh;
+            text-align: center;
+            box-shadow: 5px 10px 15px#121212;
+            
+        }
+        
+        #about .textsction{
+            
+            width: 100%;
+            
+        }
+        
+        #about .textsection h1{
+            margin: 5px;
+            margin-bottom: 10px;
+            text-align: center;
+            font-size: 4vw;
+            
+        }
+        #about .textsection p{
+            text-align: center;
+            margin-left: 50px;
+            word-spacing: 2px;
+            letter-spacing: 2px;
+            font-size: 1.5vw;
+            
+        }
+        #about .btn {
+            height:30px ;
+            width: 100px;
+            background-color: tomato;
+            border: none;
+            border-radius: 10px;
+        }
+        
+  }
+
