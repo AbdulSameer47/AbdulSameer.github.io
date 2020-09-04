@@ -1,0 +1,175 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #212121;
+    font-family: 'Tajawal', sans-serif;
+    
+}
+
+.body{
+    height: 100vh;
+}
+
+#about{
+    display: flex;
+    align-content: center;
+    flex-direction: row;
+    width: 100%;
+   
+    
+      }
+      
+.title h1{
+    color: #ffff;
+    margin: 0;
+    font-size: 5vw;
+    padding: 30px;
+    text-align: center;
+
+   
+}
+
+#about .imagesection{
+    
+    padding: 20px;
+    margin-top: 20px;
+   
+   
+   
+}
+#about .imagesection img{
+    
+    height: 500px;
+    transition: 0.3s;
+    width: 400px;
+    box-shadow: 0 3px 6px rgba(255, 255, 255, 0.25), 0 3px 6px rgba(255, 255, 255, 0.35);
+}
+  
+
+#about .imagesection img:hover{
+    box-shadow: 0 3px 6px rgba(255, 255, 255, 0.1), 0 3px 6px rgba(255, 255, 255, 0.15);
+    transform: scale(1.08);
+}
+
+#about .textsection {
+   
+    padding: 20px;
+    margin-top: 20px;
+}
+#about .textsection p{
+    color: #ffff;
+    
+    text-align: justify;
+    font-size: 2vw;
+   
+   
+     
+ }
+ #about .textsection .btn{
+  background-color: tomato;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+ 
+   transition: 0.3s;
+    border-radius: 30px;
+ }
+
+ #about .textsection .btn:hover{
+     background-color: #ffff;
+     color: #424244;
+     border: 1px solid #424244;
+     font-weight: bolder;
+     
+ }
+   #about .textsection img{
+    position: relative;
+     height: 200px;
+     width: 200px;
+     margin-left: 300px;
+    
+ }
+
+
+ @media(max-width:886px){
+
+    .title h1{
+        color: #ffff;
+        margin: 0;
+        font-size: 7vw;
+        padding: 30px;
+        
+    
+       
+    }
+    
+
+
+
+    #about{
+        display: flex;
+        align-content: center;
+        flex-direction: column;
+        width: 100%;
+       
+        
+          }
+
+      
+#about .imagesection{
+    
+    padding: 0px;
+    margin-top: 20px;
+   text-align: center;
+   
+   
+}  
+
+
+#about .textsection p{
+    
+    color: #ffff;
+    word-spacing: 0.25em;
+    letter-spacing: 0.05em;
+    font-size: 2vw;
+    text-align: center;
+}
+
+
+
+#about .textsection .btn{
+    background-color: tomato;
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    font-size: 10px;
+    margin: 2px 1px;
+   
+     transition: 0.3s;
+      border-radius: 30px;
+   }
+  
+   #about .textsection .btn:hover{
+       background-color: #ffff;
+       color: #424244;
+       border: 1px solid #424244;
+       font-weight: bolder;
+       
+   }
+
+   #about .textsection img{
+    
+     height: 200px;
+     width: 200px;
+    text-align: center;
+    position: relative;
+    margin: auto;
+    
+ }
+
+ }
