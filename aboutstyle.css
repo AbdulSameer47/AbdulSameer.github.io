@@ -21,7 +21,7 @@
       }
       
 .title h1{
-    color: #ffff;
+    color: tomato;
     margin: 0;
     font-size: 5vw;
     padding: 30px;
@@ -48,7 +48,7 @@
   
 
 #about .imagesection img:hover{
-    box-shadow: 0 3px 6px rgba(255, 255, 255, 0.1), 0 3px 6px rgba(255, 255, 255, 0.15);
+    box-shadow: 0 3px 6px tomato;
     transform: scale(1.08);
 }
 
@@ -98,7 +98,7 @@
  @media(max-width:886px){
 
     .title h1{
-        color: #ffff;
+        color: tomato;
         margin: 0;
         font-size: 7vw;
         padding: 30px;

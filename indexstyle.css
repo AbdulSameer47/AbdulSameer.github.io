@@ -424,10 +424,12 @@ align-content: center;
 
   width: 50%;
   height: 100%;
-  background-color:#f06292;
+  
   align-items: center;
   display: flex;
   justify-content: center;
+   border-style: solid;
+    border-color: tomato;
   
   
 }
@@ -439,10 +441,12 @@ align-content: center;
 
   width: 50%;
   height: 100%;
-  background-color:#aed581;
+  
   align-items: center;
   display: flex;
   justify-content: center;
+   border-style: solid;
+    border-color: tomato;
   }
 
 
@@ -462,10 +466,11 @@ align-content: center;
     
     width: 50%;
     height: 100%;
-    background-color:#e57373;
     align-items: center;
     display: flex;
     justify-content: center;
+    border-style: solid;
+    border-color: tomato;
 
     }
     
@@ -486,18 +491,21 @@ align-content: center;
     
       width: 50%;
       height: 100%;
-      background-color:#64b5f6;
+
       align-items: center;
       display: flex;
       justify-content: center;
+       border-style: solid;
+      border-color: tomato;
       }
 
       #page2-container .row1card1:hover{
 
 
-        background-image: linear-gradient(#212121,#f06292);
-        color: #fff;
-        opacity: 0.5;
+        /*background-image: linear-gradient(#212121,#f06292);*/
+       
+        
+        background: tomato;
         transition-duration: 0.5s;
         
       }
@@ -505,9 +513,9 @@ align-content: center;
       #page2-container .row1card2:hover{
 
 
-        background-image: linear-gradient(#212121,#aed581);
+       /*background-image: linear-gradient(#212121,#aed581);*/
         color: #fff;
-        opacity: 0.5;
+         background: tomato;
         transition-duration: 0.5s;
         
       }
@@ -515,19 +523,19 @@ align-content: center;
       #page2-container .row2card1:hover{
 
 
-        background-image: linear-gradient(#212121,#e57373);
+        /*background-image: linear-gradient(#212121,#e57373);*/
         color: #fff;
-        opacity: 0.5;
+         background: tomato;
         transition-duration: 0.5s;
       }
 
       #page2-container .row2card2:hover{
 
 
-        background-image: linear-gradient(#212121,#64b5f6);
-        color: #fff;
-        opacity: 0.5;
-        transition-duration: 0.5s;
+        /*background-image: linear-gradient(#212121,#64b5f6);*/
+      color: #fff;
+      background: tomato;
+      transition-duration: 0.5s;
       }
 
 .footer{
